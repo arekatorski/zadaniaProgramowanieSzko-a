@@ -8,13 +8,13 @@ int main()
 
 
     do{
-        cout << " ";
+        cout << "\n";
     cout << " Wprowadź pin: ";
     cin >> PIN;
     if(PIN == "5172"){
-        cout << "PIN Poprawny! Zalogowałeś się";
+        cout << "PIN Poprawny! Zalogowałeś się\n";
     } else if(PIN != "5172"){
-        cout << "Niestety, niepoprawny pin";
+        cout << "Niestety, niepoprawny pin\n";
     }
     }while(PIN != "5172");
 }
